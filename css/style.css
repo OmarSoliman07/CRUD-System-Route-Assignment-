@@ -1,0 +1,52 @@
+::selection{
+    color: var(--main-color);
+    background-color: var(--main-color);
+}
+:root{
+    --main-color:#FEC260;
+}
+.layer{
+    width: 180px;
+    height: 20px;
+    background-color: var(--main-color);
+    position: relative;
+    top: -25px;
+    transition: all 0.3s;
+
+}
+.book h2:hover+.layer{
+    top:-35px;
+    height: 30px;
+
+}
+.form-control{
+   width: 60;
+}
+h2{
+    position: relative;
+    z-index: 5555;
+}
+body{
+    background-color:#F7ECDE;
+}
+.bg-black{
+    background-color:#8A9E23 !important;
+}
+.bg-danger{
+    color: white !important;
+    background-color:#D30820 !important ;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.liner{
+    color:#8A9E23 ;
+}
+span{
+    color: #3FA55C;
+}
+/* .book:hover .layer{
+    height: 50px;
+
+} */
